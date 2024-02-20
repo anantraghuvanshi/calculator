@@ -1,10 +1,11 @@
 import styles from "./App.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Display from "./components/Display";
 
 function App() {
   return (
-    <div id="calculator">
-      <input type="text" id="display" />
+    <div className={styles.calculator}>
+      <Display />
       <div id="buttons-container">
         <button>C</button>
       </div>
